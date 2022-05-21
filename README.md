@@ -1,31 +1,58 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+Note that this repository is forked by a template of academic website and modified to generate my personal website (yukun093.github.io).
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+Several matters still should be took action after you forked this repository. And once you have installed the corresponding prerequisites, the installation on a linux system or a virtual vmware workstation would be much smoothly.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+# Install packages
 
-# Instructions
+Packages to create prerequisites:
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+```shell
+ruby, bundler, nodejs, rbenv, jekyll
+```
 
-See more info at https://academicpages.github.io/
+It can be completed when run the following commands:
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+```shell
+sudo apt install ruby-dev ruby-bundler nodejs
+sudo apt install rbenv
+sudo apt install jekyll
+```
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+It should be first install these packages, and then run the following corresponding commands. Before running the bundle, it needs to locate the correct absolute path.
 
-# Changelog -- bugfixes and enhancements
+```c++
+bundle clean // to clean all the gem on the system
+bundle clean --force // no need to use "--force", but if you're sure you want to remove every system gem not in this bundle, run `bundle clean --force`. "gem" seems like a file after running the "bundle install"
+```
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+If it fails, it is suggested that first `sudo apt autoremove`. To remove the previous three packages, and first go into correct absolute path to check if the "ruby" is installed correct or not.
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+```ruby
+ruby
+print "hello world" // using "ctrl + D" to check the result, if the output is correct and then ruby is installed correctly.
+```
+
+If "bundle install" is refused, then running `bundle config set --local path 'vendor/bundle'`
+
+# Run following commands to configure environment
+
+Then to initialize "rbenv", using command and refresh site when files is reloaded.
+
+```shell
+eval "$(rbenv init -)"
+rbenv init
+rbenv shell 2.6.4
+rbenv rehash
+bundle exec jekyll liveserve
+```
+
+If there is one suggestion about missing gem executables, then using following commands to fix it.
+
+```shell
+bundle clean
+bundle install
+bundle exec jekyll liveserve
+```
+
+Using  `localhost:4000` to serve the site and furthermore refresh and update files in the repository.
+
