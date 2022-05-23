@@ -36,7 +36,7 @@ If "bundle install" is refused, then running `bundle config set --local path 've
 
 # Run following commands to configure environment
 
-Then to initialize "rbenv", using command and refresh site when files is reloaded.
+Then to initialize "rbenv" to configure attributes.
 
 ```shell
 eval "$(rbenv init -)"
@@ -54,5 +54,11 @@ bundle install
 bundle exec jekyll liveserve
 ```
 
-Using  `localhost:4000` to serve the site and furthermore refresh and update files in the repository.
+# update personal website
+
+```c++
+// first the new files should be commited to the github repository, then using
+rbenv rehash
+bundle exec jekyll liveserve
+```
 
