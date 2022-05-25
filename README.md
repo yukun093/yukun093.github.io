@@ -56,9 +56,12 @@ bundle exec jekyll liveserve
 
 # update personal website
 
+First the new files should be commited to the github repository, then using following command:
+
 ```c++
-// first the new files should be commited to the github repository, then using
 rbenv rehash
 bundle exec jekyll liveserve
+localhost:4000 // one the browse, load website
 ```
 
+Then refresh website again.
