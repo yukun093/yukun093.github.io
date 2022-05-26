@@ -1,17 +1,18 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-    
+   
   - title: "Blog Posts"
-    url: https://www.cnblogs.com/yuyukun/
+    url: /blogs/
 
   - title: "CV"
     url: /cv/
     
-  - title: "github"
-    url: https://github.com/yukun093
+  - title: "projects"
+    url: /projects/
     
-  - title: "linkedin"
-    url: https://linkedin.com/in/yukunyu
+  - title: "leetcode"
+    url: /leetcode/
+  
+  - title: "Patents"
+    url: /patents/
     
