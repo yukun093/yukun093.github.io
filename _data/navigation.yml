@@ -2,10 +2,16 @@
 main:
   - title: "Publications"
     url: /publications/
-
+    
   - title: "Blog Posts"
-    url: /year-archive/
+    url: https://www.cnblogs.com/yuyukun/
 
   - title: "CV"
     url: /cv/
-
+    
+  - title: "github"
+    url: https://github.com/yukun093
+    
+  - title: "linkedin"
+    url: https://linkedin.com/in/yukunyu
+    
