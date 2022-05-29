@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "FI-Finland"
-title                    : "Yukun Yu / Robotics Development."
+title                    : "Robotics"
 title_separator          : "-"
 name                     : &name "Yukun Yu"
 description              : &description "Master Student at Aalto University"
