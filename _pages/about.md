@@ -12,39 +12,34 @@ My name is Yukun Yu. Currently, I am a second-year master student at Aalto Unive
 
 Additionally, during my two-year studies, I was fortunately selected to be one of exchange student to be eligible to study at school of design and engineering, TUM. My interests are located in Robotics, and Mechatronics. Now, I am working on my master thesis at Robot Learning Group, Department of Automation and Electrical Engineering:
 
-```html
-dynamic motion planning to avoid collision with human for a mobile robot
-```
+*<u>dynamic motion planning to avoid collision with human for a mobile robot</u>*
 
 I have completed several projects spanning from Automation Engineering and Mechanical Engineering. More details should be found in blocks of projects:
 
-```html
-AviGuardX, drone detection with neural network to avoid collision with plane*
+<u>*AviGuardX, drone detection with neural network to avoid collision with plane**</u>
 
-Development of one part of directed acyclic graph(DAG) at Computational Mechanics, TUM
+<u>*Development of one part of directed acyclic graph(DAG) at Computational Mechanics, TUM*</u>
 
-Incursion of probability distribution of Road surface in the short & long term
+<u>*Incursion of probability distribution of Road surface in the short & long term*</u>
 
-Tissue type classification based on microarray gene expression profile
+<u>*Tissue type classification based on microarray gene expression profile*</u>
 
-Using sqlalchemy and pandas to analyse weather data from Finnish Meteorological Institute
+<u>*Using sqlalchemy and pandas to analyse weather data from Finnish Meteorological Institute*</u>
 
-NCPC 2021 Competitive Programming
+<u>*NCPC 2021 Competitive Programming*</u>
 
-Projects in self-driving cars specialization including four projects simple control, state estimation and localization, motion planning
+<u>*Projects in self-driving cars specialization including four projects simple control, state estimation and localization, motion planning*</u>
 
-"Exops-m2" smart robot development and research project of joint angle calculation using Xsens
+<u>*"Exops-m2" smart robot development and research project of joint angle calculation using Xsens*</u>
 
-Tianwan Damaged Fuel Sealing Bottle Localization as an mechanical design program
+<u>*Tianwan Damaged Fuel Sealing Bottle Localization as an mechanical design program*</u>
 
-ASME Nuclear Forensics at Shanghai Apollo Machinery Co., Ltd
+<u>*ASME Nuclear Forensics at Shanghai Apollo Machinery Co., Ltd*</u>
 
-Development of converter cooling system and gearbox cooling filtering system used in wind power products
+<u>*Development of converter cooling system and gearbox cooling filtering system used in wind power products*</u>
 
-Construction of a new wave simulation teaching experiment platform
+<u>*Construction of a new wave simulation teaching experiment platform*</u>
 
-Intelligent two-wheeled balance car
-
-```
+<u>*Intelligent two-wheeled balance car*</u>
 
 
