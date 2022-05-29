@@ -16,7 +16,7 @@ Additionally, during my two-year studies, I was fortunately selected to be one o
 
 I have completed several projects spanning from Automation Engineering and Mechanical Engineering. More details should be found in blocks of projects:
 
-<u>*AviGuardX, drone detection with neural network to avoid collision with plane**</u>
+*<u>AviGuardX, drone detection with neural network to avoid collision with plane</u>*
 
 <u>*Development of one part of directed acyclic graph(DAG) at Computational Mechanics, TUM*</u>
 
