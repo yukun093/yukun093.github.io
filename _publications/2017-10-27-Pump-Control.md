@@ -18,3 +18,4 @@ For the full contents(Chinese), it could be downloaded as following link.
 If you want to read in English, the google link is related to English version.
 
 [Read english version](https://patents.google.com/patent/CN105508322B/en)
+
