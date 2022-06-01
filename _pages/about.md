@@ -14,6 +14,8 @@ Additionally, during my two-year studies, I was fortunately selected to be one o
 
 *<u>dynamic motion planning to avoid collision with human for a mobile robot</u>*
 
+
+
 I have completed several projects spanning from Automation Engineering and Mechanical Engineering. More details should be found in blocks of projects:
 
 *<u>AviGuardX, drone detection with neural network to avoid collision with plane</u>*
@@ -40,6 +42,13 @@ I have completed several projects spanning from Automation Engineering and Mecha
 
 *<u>Construction of a new wave simulation teaching experiment platform</u>*
 
-*<u>Intelligent two-wheeled balance car</u>*
+*<u>Intelligent two-wheeled balancing car</u>*
 
+
+
+After one project is completed, I would be willing to make a conclusion to overcome drawbacks and collect what points I could do better or how to continuously improve the performance. Due to those experiences, I would also acquire many experiences, for example, data analysis in "Databases" and "machine learning with python", 3D modelling in "ASME Nuclear Forensics", "mechanical design program", as well as "wind power products" in Solidworks, or reverse engineering using Imageware and Geomagic, Modelling (AI) & Estimation in "gene expression profile analysis", "AviGuardX". It is these experiences that help me strengthen my reasonable ability, programming skills or writing skills.
+
+In "AviGuardX", I use Pytorch to generate the model and use python to deal with problems. Additionally, In "DAG development", "NCPC 2021", and "Intelligent balancing car", C/C++ would be used to program. In "Expos-m2" and "Incursion of probability distribution", Matlab would be used as programming language to compute the result.
+
+Additionally, I also committed to learn language to be a bilingualist(English and German), since I am an native speaker of Chinese. In Aalto, I also learned Swedish as my fourth language although it is, as an beginning, not deeply involved, and I felt comfortable when it expands my knowledge furthermore.
 
