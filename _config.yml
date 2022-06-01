@@ -85,7 +85,7 @@ author:
   bio              : "Robotics Engineer"
   location         : "Finland"
   employer         : 
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "yukun093@163.com"
   # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yukun093"
+  github           : "https://github.com/yukun093"
   google_plus      :
   keybase          :
   instagram        :
@@ -173,7 +173,7 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
+# Collections, if false, there is no label on the navigation line
 collections:
   teaching:
     output: true
