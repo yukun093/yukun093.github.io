@@ -5,7 +5,7 @@ permalink: /publication/2017-10-27-Pump-Control/
 excerpt: 'Patent Pump Control'
 date: 2017-10-27
 venue: 'Patent Pump Control'
-paperurl: 'http://academicpages.github.io/files/CN105508322B.pdf'
+paperurl: 'http://yukun093.github.io/files/CN105508322B.pdf'
 ---
 This work is done when I was a third-year bachelor student in NingboTech, Zhejiang University. And I was fortunately that I was one of team members which is created by more than five people to discuss several topics related to hydraulic vibration researches.
 
