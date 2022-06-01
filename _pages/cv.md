@@ -3,6 +3,8 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+cvcnurl: 'http://yukun093.github.io/files/CV(CN).pdf'
+cvenurl: 'http://yukun093.github.io/files/CV(EN).pdf'
 redirect_from:
   - /resume
 ---
@@ -37,33 +39,9 @@ redirect_from:
 
 
 
-* Detected object of drone with passive radar as the task of semester project (AviGuardX)
-* Participated in developing a project plan (market background, personnel organization, risk analysis, working task benchmark, distribution of personnel responsibilities)
-* Investigated the target recognition papers on the detection of drones by hardware
-* determine a plan considering passive radar as detection scheme
-* Took charge of collection of dataset, when using Kerberos-SDR to gather images with Jetson
-* Used API “labelimg” to define the trajectory of drone and label them
-* Trained dataset with pixels 600x600RGB from SDR, considering ResNet as backbone training network of Faster-RCNN
+The full CV.pdf could be found as follows:
 
+[Chinese CV Version](http://yukun093.github.io/files/CV(CN).pdf)
 
-
-* Gained experience of software system ”exops-m2” developed by Unity3D
-* Updated key code to modify parameters of robot motion for capturing objects and the intensity of force feedback
-* Scored first prize in the “Bloom cup” contest for 5G Application by China Telecom Department
-* Developed a Ruijin intelligent robot rehabilitation port based on 5G monitoring and AI control
-* Achieved the arm’s posture change using D-H transformation with Xsens
-
-
-
-* Design Engineer, Mintai Hydraulic Co., ltd, Shanghai, 2020.03-2020.07   
-  * Designed 3D structure with solidworks
-  * picked up standard parts within the ERP system and translated hydraulic standard manuals
-
-
-
-* Mechanical Engineer, Apollo Machinery Co., Ltd, Shanghai, 2018.10-2019.06
-  * Attended research project “Tianwan Damaged Fuel Sealing Bottle Localization”
-  * Assisted in preliminary measurement data analysis, structure design, medium-term manufacture, nondestructive testing, and expert evaluation.
-  * Attended the ASME Nuclear Forensics and Earned certificates NA, N, N2, N3 with team
-  * Took charge of the ASME Boiler and Pressure Vessel Code, Section III, division 3 WC&WA article part, 2017 Edition with Addenda up to and including N/A and relevant design of Spent Fuel Dry Storage Containment
+[English CV Version](http://yukun093.github.io/files/CV(EN).pdf)
 
