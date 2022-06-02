@@ -4,8 +4,8 @@ main:
   - title: "Publications"
     url: /publications/ 
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Project"
+    url: /project/
     
   - title: "Blog Posts"
     url: /year-archive/
