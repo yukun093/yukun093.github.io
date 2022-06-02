@@ -16,4 +16,4 @@ Finally, considering the feasibility, cost as well as difficulty, the plan using
 
 When it comes to model selection, in this project, we use Faster RCNN to classify and recognize the drones and flying birds as targets. Though the current CNN model is developing rapidly, and improved algorithms suitable for various applications emerge in endlessly, the premise is to construct different types of datasets. The completeness namely diversity, and the accuracy of annotation for detection object, namely selected areas, directly determine the final output accuracy.
 
-Also, there is one video **<u>[link](https://yukun093.github.io/files/AviGuardX.mp4)</u>**, which is made by one of my teammate, Genesis Mateo from Thomas Jefferson University, to explain how the whole process we have experienced.
+Also, there is one video [link](https://yukun093.github.io/files/AviGuardX.mp4), which is made by one of my teammate, Genesis Mateo from Thomas Jefferson University, to explain how the whole process we have experienced.
