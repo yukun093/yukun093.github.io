@@ -1,7 +1,7 @@
 ---
 title: "AviGuardX"
 excerpt: "Drone detection with neural network to avoid collision with plane<br/><img src='/images/AviGuardX.png'>"
-permalink: /project/project-1/
+permalink: /project/project-AviGuardX/
 videourl: 'https://yukun093.github.io/files/AviGuardX.mp4'
 collection: project
 ---
