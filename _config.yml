@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -181,7 +181,7 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
-  project:
+  portfolio: # it should be opened, then go to change its name. Otherwise, the name could not be changed.
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # project
+  # portfolio
   - scope:
       path: ""
-      type: project
+      type: portfolio
     values:
       layout: single
       author_profile: true
