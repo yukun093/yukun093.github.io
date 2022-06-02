@@ -181,7 +181,7 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
-  portfolio: # it should be opened, then go to change its name. Otherwise, the name could not be changed.
+  project: # it should be opened, then go to change its name. Otherwise, the name could not be changed.
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # portfolio
+  # project
   - scope:
       path: ""
-      type: portfolio
+      type: project
     values:
       layout: single
       author_profile: true
