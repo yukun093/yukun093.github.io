@@ -2,6 +2,7 @@
 title: "Incursion-of-Probability-Distribution"
 excerpt: "Development of one part of directed acyclic graph(DAG)<br/><img src='/images/Incursion-of-Probability-Distribution.png'>"
 permalink: /project/project-Incursion-of-Probability-Distribution/
+documeturl: 'https://yukun093.github.io/files/Incursion-of-Probability-Distribution-Learning-Diary.pdf'
 collection: project
 ---
 
@@ -69,11 +70,4 @@ Rainflow analysis method is used to count fatigue cycles with stress reversals f
 
 The meaning of this group project is to understand the comfort and oscillation, or even vehicle's speed which is related to vehicle's vibration frequency. When we get familiar with their relationship, it would be better for us to design or limit the road speed for vehicles.
 
-
-
-
-
-
-
-
-
+It should be noted that the short version of this summary is concluded from my longer learning diary, which could be checked in the [following link](https://yukun093.github.io/files/Incursion-of-Probability-Distribution-Learning-Diary.pdf) since the figures in this document are not clear.
