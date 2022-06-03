@@ -16,37 +16,37 @@ According to references, actual distributions could be found which are gaussian 
 
 Our model derived from single-degree-of-freedom linear system with viscos damping and then it is pulsed by harmonic excitation force including stationary and the steady state is analyzed. With the effect of harmonic excitation, the response consists of two main parts that are decaying transient part and steady state part, but with time going by the transient part will gradually disappear, and the system tends to keep steady state. Our model could be described by following figure with 1-DOF m-c-k system.
 
-![image-20220603160615574](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603160615574.png)
+![image-20220603160615574](C:\Users\yuyuk\Documents\personal_website\images\1-DOF-spring-damper-mass-system.png)
 
 ​																Figure: A simple 1-DOF spring damper mass system
 
 In MATLAB, 1-DOF m-c-k system is analyzed by in time domain including the amplitude of transient part and stationary part as well as the amplitude after FFT in frequency domain.
 
-![image-20220603162010481](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603162010481.png)
+![image-20220603162010481](C:\Users\yuyuk\Documents\personal_website\images\Amplitude-of-1-DOF-in-time-domain.png)
 
 ​																	    Figure: Amplitude of 1-DOF in time domain
 
 With the aid of FFT, those extra disturbance with their amplitudes and a series of frequencies can also be clearly drawn at the bottom of horizontal axis. For narrow banded process and broad banded process, in time domain, narrow band can be clearly distinguished and all frequencies are in narrow frequency band; instead, broad band is in a mess when signals are mixed with different frequencies. It is difficult to ensure zero mean as it varies over long time. In frequency domain, narrow band have smaller interval (0-25Hz) in frequency domain and broad band has larger interval(0-100Hz) which causes some signals difficult to capture. The following figures have validated the description.
 
-![image-20220603162433287](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603162433287.png)
+![image-20220603162433287](C:\Users\yuyuk\Documents\personal_website\images\narrow-banded-process.png)
 
 ​																				 Figure: narrow banded process
 
 Window function can help us filter signals with leakage to other period which causes an effect of addition, and therefore it can ensure that only limited signal within the original bandwidth is captured. In following figure, we can see that signal with disturbance is clearer in the higher amplitude, though there are some burrs still existed. Anyway, the signal is distributed between 0-20 Hz.
 
-![image-20220603162906190](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603162906190.png)
+![image-20220603162906190](C:\Users\yuyuk\Documents\personal_website\images\narrow-banded-process-and-its-effect-with-Window-Function)
 
 ​												 Figure: narrow banded process and its effect with Window Function
 
 In comparison with narrow band, broad banded process has an obvious effect with window function. Signals are limited to small range of frequencies.
 
-![image-20220603163016046](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603163016046.png)
+![image-20220603163016046](C:\Users\yuyuk\Documents\personal_website\images\broad-banded-process-and-its-effect-with-Window-Function)
 
 ​											    Figure: broad banded process and its effect with Window Function
 
 Additionally, when getting the road spectrum, analysis of model was from theory to practical phase. From the state-space formula, the transfer function of random loading could be inferred. The value of the following figures, which are RAO and the response of load spectrum, can be computed. After that, we can get the figure of Response of the system for random loading shown as following figure, which is narrow band since the signal is in a smaller frequency interval. The physical meaning of the response spectrum is to reflect the degree of volatility of a specific road profile.
 
-![image-20220603170945901](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603170945901.png)
+![image-20220603170945901](C:\Users\yuyuk\Documents\personal_website\images\response-of-the-system-for-random-loading.png)
 
 ​															   Figure: response of the system for random loading
 
@@ -56,13 +56,13 @@ From the angle of autocorrelation, either in loading process or in response proc
 
 Additionally, we also fit the curve with estimated data, and the gaussian distribution is plotted with variable of road elevation (in system response only partial data in stationary state expressed by normal distribution). Actually, what is the best method to express the probability distribution? From the fit of our data in assignment, the optimal method is normal to fit the curve. It is because we do not know the exact order of equation and there is more or less redundancy or exceedance of degree. However, we can increase the interpolation points to minimize the error even with poly function to fit the curve. The compared effect can be seen as following figure.
 
-![image-20220603172218894](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603172218894.png)![image-20220603172225370](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603172225370.png)
+![image-20220603172218894](C:\Users\yuyuk\Documents\personal_website\images\Rayleigh-distribution-with-little-interpolation-points-in-Rainflow-cycle-counting)![image-20220603172225370](C:\Users\yuyuk\Documents\personal_website\images\Rayleigh-distribution-with-adequate-interpolation-points-in-Rainflow-cycle-counting.png)
 
 Figure:  Rayleigh distribution with little interpolation points in Rainflow cycle counting
 
 Figure: Rayleigh distribution with adequate interpolation points in Rainflow cycle counting
 
-![image-20220603172335608](C:\Users\yuyuk\AppData\Roaming\Typora\typora-user-images\image-20220603172335608.png)
+![image-20220603172335608](C:\Users\yuyuk\Documents\personal_website\images\Rayleigh-distribution-with-interpolation-points-in-Rainflow-cycle-counting-for-loading.png)
 
 ​							Figure: Rayleigh distribution with interpolation points in Rainflow cycle counting for loading
 
