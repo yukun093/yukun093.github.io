@@ -16,13 +16,13 @@ According to references, actual distributions could be found which are gaussian 
 
 Our model derived from single-degree-of-freedom linear system with viscos damping and then it is pulsed by harmonic excitation force including stationary and the steady state is analyzed. With the effect of harmonic excitation, the response consists of two main parts that are decaying transient part and steady state part, but with time going by the transient part will gradually disappear, and the system tends to keep steady state. Our model could be described by following figure with 1-DOF m-c-k system.
 
-![image-20220603160615574](C:\Users\yuyuk\Documents\personal_website\images\1-DOF-spring-damper-mass-system.png)
+"<img src='/images/measurement-system-of-road-profile.png'>"
 
 ​																Figure: A simple 1-DOF spring damper mass system
 
 In MATLAB, 1-DOF m-c-k system is analyzed by in time domain including the amplitude of transient part and stationary part as well as the amplitude after FFT in frequency domain.
 
-![image-20220603162010481](C:\Users\yuyuk\Documents\personal_website\images\Amplitude-of-1-DOF-in-time-domain.png)
+"<img src='/images/measurement-system-of-road-profile.png'>"
 
 ​																	    Figure: Amplitude of 1-DOF in time domain
 
