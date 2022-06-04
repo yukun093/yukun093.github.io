@@ -1,6 +1,6 @@
 ---
 title: "project-gene-expression-profile"
-excerpt: "Drone detection with neural network to avoid collision with plane<br/><img src='/images/DNA-Microarray.png.png'>"
+excerpt: "Drone detection with neural network to avoid collision with plane<br/><img src='/images/DNA-Microarray.png'>"/
 permalink: /project/project-gene-expression-profile/
 collection: project
 ---
