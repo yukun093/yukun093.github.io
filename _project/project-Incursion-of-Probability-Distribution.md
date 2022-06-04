@@ -1,6 +1,6 @@
 ---
 title: "Incursion-of-Probability-Distribution"
-excerpt: "Development of one part of directed acyclic graph(DAG)<br/><img src='/images/measurement-system-of-road-profile.png'>"/
+excerpt: "Development of one part of directed acyclic graph(DAG)<br/><img src='/images/measurement-system-of-road-profile.png'>"
 permalink: /project/project-Incursion-of-Probability-Distribution/
 documeturl: 'https://yukun093.github.io/files/Incursion-of-Probability-Distribution-Learning-Diary.pdf'
 collection: project

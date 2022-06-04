@@ -1,7 +1,7 @@
 ---
-title: "project-gene-expression-profile"
-excerpt: "Drone detection with neural network to avoid collision with plane<br/><img src='/images/DNA-Microarray.png'>"/
-permalink: /project/project-gene-expression-profile/
+title: "Gene-expression-profile"
+excerpt: "Tissue type classification based on microarray gene expression profiles<br/><img src='/images/DNA-Microarray.png'>"
+permalink: /project/project-Gene-expression-profile/
 collection: project
 ---
 
@@ -17,14 +17,3 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
