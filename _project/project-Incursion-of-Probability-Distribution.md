@@ -18,37 +18,37 @@ Our model derived from single-degree-of-freedom linear system with viscos dampin
 
 <div align=center><img src='/images/1-DOF-spring-damper-mass-system.png'></div>
 
-​																Figure: A simple 1-DOF spring damper mass system
+​																<div align=center><"Figure: A simple 1-DOF spring damper mass system"></div>
 
 In MATLAB, 1-DOF m-c-k system is analyzed by in time domain including the amplitude of transient part and stationary part as well as the amplitude after FFT in frequency domain.
 
 <div align=center><img src='/images/Amplitude-of-1-DOF-in-time-domain.png'></div>
 
-​																	    Figure: Amplitude of 1-DOF in time domain
+​																	   <div align=center><"Figure: Amplitude of 1-DOF in time domain"></div>
 
 With the aid of FFT, those extra disturbance with their amplitudes and a series of frequencies can also be clearly drawn at the bottom of horizontal axis. For narrow banded process and broad banded process, in time domain, narrow band can be clearly distinguished and all frequencies are in narrow frequency band; instead, broad band is in a mess when signals are mixed with different frequencies. It is difficult to ensure zero mean as it varies over long time. In frequency domain, narrow band have smaller interval (0-25Hz) in frequency domain and broad band has larger interval(0-100Hz) which causes some signals difficult to capture. The following figures have validated the description.
 
 <div align=center><img src='/images/narrow-banded-process.png'></div>
 
-​																				 Figure: narrow banded process
+​																				 <div align=center><"Figure: narrow banded process"></div>
 
 Window function can help us filter signals with leakage to other period which causes an effect of addition, and therefore it can ensure that only limited signal within the original bandwidth is captured. In following figure, we can see that signal with disturbance is clearer in the higher amplitude, though there are some burrs still existed. Anyway, the signal is distributed between 0-20 Hz.
 
 <div align=center><img src='/images/narrow-banded-process-and-its-effect-with-Window-Function.png'></div>
 
-​												 Figure: narrow banded process and its effect with Window Function
+​												 <div align=center><"Figure: narrow banded process and its effect with Window Function"></div>
 
 In comparison with narrow band, broad banded process has an obvious effect with window function. Signals are limited to small range of frequencies.
 
 <div align=center><img src='/images/broad-banded-process-and-its-effect-with-Window-Function.png'></div>
 
-​											    Figure: broad banded process and its effect with Window Function
+​											    <div align=center><"Figure: broad banded process and its effect with Window Function"></div>
 
 Additionally, when getting the road spectrum, analysis of model was from theory to practical phase. From the state-space formula, the transfer function of random loading could be inferred. The value of the following figures, which are RAO and the response of load spectrum, can be computed. After that, we can get the figure of Response of the system for random loading shown as following figure, which is narrow band since the signal is in a smaller frequency interval. The physical meaning of the response spectrum is to reflect the degree of volatility of a specific road profile.
 
 <div align=center><img src='/images/response-of-the-system-for-random-loading.png'></div>
 
-​															   Figure: response of the system for random loading
+​															   <div align=center><"Figure: response of the system for random loading"></div>
 
 As for the function of mean value, standard deviation and autocorrelation, I think they can help us to validate reliability of stochastic process and in the assignment, it can been seen that mean value and deviation of loading process have slight fluctuation in time averages. Instead, mean value and standard deviation of response of the suspension system have larger changes during time sequences. These results suggest that the random loading is a relatively stochastic process and the response of system is not a pure stochastic process. I think the reason can be ascribed to those assumptions we set and those conditions we simplify.
 
