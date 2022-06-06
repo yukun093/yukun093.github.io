@@ -117,9 +117,7 @@ plt.show()
 
 ## Multiclass Classification
 
-For part II, the dataset is one multiclass classification which are 'cell line', 'disease', 'neoplasm', 'normal'.
-
-Here, data would not be removed due to its four-class classification.
+For part II, the dataset is the multiclass classification which are 'cell line', 'disease', 'neoplasm', 'normal'. Here, data would not be removed due to its four-class classification.
 
 ```python
 # count the gene's number after it is transferred to Numpy arrays from Dataframe
