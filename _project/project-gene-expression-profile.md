@@ -13,11 +13,7 @@ It is one project of machine learning with python from Aalto university, and the
 
 ## Introduction
 
-"A microarray is a laboratory tool used to detect the expression of thousands of genes at the same time. DNA microarrays are microscope slides that are printed with thousands of tiny spots in defined positions, with each spot containing a known DNA sequence or gene."
-
-The microarray data for this problem consists of normalized relative expression of certain genes measured in different tissue. There are 3000 gene probes and 2000 samples. The full dataset can be found at https://www.ebi.ac.uk/arrayexpress/ (accession number E-MTAB-62).
-
-It should be noted that codes first are referred by teaching assistant of 2021-spring of course CS-EJ3211, since that would be better and much cleaner than mine.
+"A microarray is a laboratory tool used to detect the expression of thousands of genes at the same time. DNA microarrays are microscope slides that are printed with thousands of tiny spots in defined positions, with each spot containing a known DNA sequence or gene." The microarray data for this problem consists of normalized relative expression of certain genes measured in different tissue. There are 3000 gene probes and 2000 samples. The full dataset can be found at https://www.ebi.ac.uk/arrayexpress/ (accession number E-MTAB-62). It should be noted that codes first are referred by teaching assistant of 2021-spring of course CS-EJ3211, since that would be better and much cleaner than mine.
 
 ## Result of binary classification
 
@@ -31,9 +27,7 @@ For example, here using training accuracy and testing accuracy to express the re
 
 ## Result of multiclass classification
 
-For part II, the dataset is the multiclass classification which are 'cell line', 'disease', 'neoplasm', 'normal'. Here, data would not be removed due to its four-class classification.
-
-The f1-score is expressed across different gamma and C.
+For part II, the dataset is the multiclass classification which are 'cell line', 'disease', 'neoplasm', 'normal'. Here, data would not be removed due to its four-class classification. The f1-score is expressed across different gamma and C.
 
 <div align=center><img src='/images/scores-for-test-set.png'></div>
 
@@ -41,4 +35,4 @@ Here the result is shown as one final evaluation.
 
 <div align=center><img src='/images/final-evaluation.png'></div>
 
-The code could be referred here.
+In the following link, the [code](https://yukun093.github.io/files/project4-code.md) could be checked.
