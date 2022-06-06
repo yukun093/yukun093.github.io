@@ -2,7 +2,7 @@
 title: "Gene-expression-profile"
 excerpt: "Tissue type classification based on microarray gene expression profiles<br/><img src='/images/DNA-Microarray.png'>"
 permalink: /project/project-Gene-expression-profile/
-dataset: 'https://yukun093.github.io/files/data_subset.csv'
+dataset: https://drive.google.com/file/d/1hkkFh4T9PkP5L64gPTxjU6gg-TugRYcR/view?usp=sharing
 codeurl: 'https://yukun093.github.io/files/project4-code.pdf'
 collection: project
 ---
@@ -35,4 +35,4 @@ Here the result is shown as one final evaluation.
 
 <div align=center><img src='/images/final-evaluation.png'></div>
 
-In the following link, the [code](https://yukun093.github.io/files/project4-code.md) could be checked.
+In the following link, the [code](https://drive.google.com/file/d/1hkkFh4T9PkP5L64gPTxjU6gg-TugRYcR/view?usp=sharing) could be checked.
