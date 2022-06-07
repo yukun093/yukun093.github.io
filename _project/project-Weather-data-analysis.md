@@ -1,14 +1,15 @@
 ---
 title: "SQL-for-weather-data-analysis"
-excerpt: "Drone detection with neural network to avoid collision with plane<br/><img src='/images/AviGuardX.png'>"
+excerpt: "Using pandas and sqlalchemy to analyse the weather data from Finnish Meteorological Institute<br/><img src='/images/Finnish-Meteorological-Institute's-open-data.png'>"
 permalink: /project/project-Weather-data-analysis/
+Finnish-Meteorological-Institute-link: 'https://en.ilmatieteenlaitos.fi/open-data'
 filelink: 'https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing'
 collection: project
 ---
 
 ------
 
-It is one project that uses pandas to read data from [csv file](https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing)(downloaded here), and sqlalchemy to create database and address the data, which is picked from Helsinki . First, one database engine should be created, for example as sqlite_conn. Then using `engine.connect()` to prompt the script to connect with the database.
+It is one project that uses pandas to read data from [csv file](https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing)(downloaded here), and sqlalchemy to create database and address the data, which is picked from Finnish Meteorological Institute, and the cover page is also downloaded from the [institute's page](https://en.ilmatieteenlaitos.fi/open-data) as well. If you wish to download more data, it could also download data from this page, since they already has made its data sets freely available for public use. First, one database engine should be created, for example as sqlite_conn. Then using `engine.connect()` to prompt the script to connect with the database.
 
 ## Field Creation
 
