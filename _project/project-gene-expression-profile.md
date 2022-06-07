@@ -9,7 +9,7 @@ collection: project
 
 ------
 
-It is one project of machine learning with python from Aalto university, and the data set was one of the total dataset. The full dataset can be found at https://www.ebi.ac.uk/arrayexpress/, and part of that is subordinated to accession number E-MTAB-62([[data_subset.csv](https://drive.google.com/file/d/1hkkFh4T9PkP5L64gPTxjU6gg-TugRYcR/view?usp=sharing)]). The first columns of 'data_subset.csv' file (file located in 'coursedata' folder) contains ID's of samples (e.g. 'GSM23227.CEL') and analyses info ('RMA') and the rest - expression values for 3000 genes. Here, based on expression profile of samples, the type of tissue should be predicted. Also multiple types of tissue which is subordinated to {'cell line', 'disease', 'neoplasm', 'normal'} should be mentioned as well.
+It is one project of machine learning with python from Aalto university, and the data set was one of the total dataset. The full dataset can be found at https://www.ebi.ac.uk/arrayexpress/, and part of that is subordinated to accession number E-MTAB-62([[data_subset.csv](https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing)]). The first columns of 'data_subset.csv' file (file located in 'coursedata' folder) contains ID's of samples (e.g. 'GSM23227.CEL') and analyses info ('RMA') and the rest - expression values for 3000 genes. Here, based on expression profile of samples, the type of tissue should be predicted. Also multiple types of tissue which is subordinated to {'cell line', 'disease', 'neoplasm', 'normal'} should be mentioned as well.
 
 ## Introduction
 
