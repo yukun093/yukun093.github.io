@@ -4,16 +4,17 @@ excerpt: "Using pandas and sqlalchemy to analyse the weather data from Finnish M
 permalink: /project/project-Weather-data-analysis/
 Finnish-Meteorological-Institute-link: 'https://en.ilmatieteenlaitos.fi/open-data'
 filelink: 'https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing'
+codelink: 'https://yukun093.github.io/files/database-script.py'
 collection: project
 ---
 
 ------
 
-It is one project that uses pandas to read data from [csv file](https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing), and sqlalchemy to create database and address the data, which is picked from Finnish Meteorological Institute, and the cover page is also downloaded from the [institute's page](https://en.ilmatieteenlaitos.fi/open-data) as well. If you wish to download more data, it could also download data from this page, since they already has made its data sets freely available for public use. First, one database engine should be created, for example as sqlite_conn. Then using `engine.connect()` to prompt the script to connect with the database.
+It is one project that uses pandas to read data from [csv file](https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing), and sqlalchemy to create database and address the data, which is picked from Finnish Meteorological Institute, and the cover page is also downloaded from the [institute's page](https://en.ilmatieteenlaitos.fi/open-data) as well. If you wish to download more data, it could also download data from this page, since they already have made its data sets freely available for public use. First, create_engine() should be used to create a database and then using `engine.connect()` to prompt the script to connect with the database.
 
 ## Field Creation
 
-Using engine.execute() to create several tables if there are not tables that are mentioned beforehand, For Example the table "Place".
+Using engine.execute() to create several tables if there are not tables that are mentioned beforehand, for example the table "Place".
 
 ```sql
 engine.execute( 'CREATE TABLE IF NOT EXISTS "Place" ('
@@ -44,4 +45,6 @@ snowy_days= pd.read_sql_query(query_snowy_days, sqlite_conn)
 Basically, with the help of `.fillna()`, the null value could be replaced by 0.0. It is better to express data with figures with the help of `rainy_days['100968'].plot.bar(ax = axes[0,0], x = 'month', y = 'rain', title = 'Helsinki-Vantaa Airport')`.
 
 Finally, after reading sqlquery, using .close() to close the engine.
+
+The [python script](https://yukun093.github.io/files/database-script.py) could be checked here.
 
