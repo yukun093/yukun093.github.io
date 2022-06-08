@@ -4,7 +4,7 @@ excerpt: "Using pandas and sqlalchemy to analyse the weather data from Finnish M
 permalink: /project/project-Weather-data-analysis/
 Finnish-Meteorological-Institute-link: 'https://en.ilmatieteenlaitos.fi/open-data'
 filelink: 'https://drive.google.com/file/d/14iq1ielpMPG-QXGdmt9NBdnWBmQ8HTI5/view?usp=sharing'
-codelink: 'https://yukun093.github.io/files/database-script.py'
+codelink: 'https://yukun093.github.io/files/database-script.txt'
 collection: project
 ---
 
