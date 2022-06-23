@@ -41,7 +41,6 @@ Then to initialize "rbenv" to configure attributes.
 ```shell
 eval "$(rbenv init -)"
 rbenv init
-rbenv shell 2.6.4
 rbenv rehash
 bundle exec jekyll liveserve
 ```
