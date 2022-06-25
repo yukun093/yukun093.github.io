@@ -1,7 +1,7 @@
 ---
 title: "projects focusing on self driving cars specification"
 excerpt: "projects of autonomous driving on control, state estimation and localization, motion planning<br/><img src='/images/carla.png'>"
-permalink: /project/project-self-driving-cars-specialization/
+permalink: /project/project-Self-driving-cars-specialization/
 carla open source address: https://carla.org/
 collection: project
 ---
