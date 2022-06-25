@@ -8,4 +8,5 @@ collection: project
 
 ------
 
-It was one of another project when i was on the Apollo. Based on previous experiences, i was selected one of mechanical designers to participate in the ASME(American Society Mechanical Engineers) Nuclear Forensics. It was hold by six examiners, three from china and three from other countries appointed by ASME. 
+It was one of another project when i was on the Apollo. It should be known that the cover image is cited from [here](https://www.ksb.com/zh-cn/yingyong/nengyuan-jishu/hedianzhan). Based on previous experiences, i was selected one of mechanical designers to participate in the ASME(American Society Mechanical Engineers) Nuclear Forensics. It was hold by six examiners, three from china and three from other countries(Korea and Pakistan) appointed by ASME.
+
