@@ -1,5 +1,5 @@
 ---
-title: "project-ASME-Nuclear-Forensics"
+title: "ASME-Nuclear-Forensics"
 excerpt: "one mechanical design and manufacturing program as one sample to participate in the ASME review<br/><img src='/images/Forensics-N-NPT-NS.png'>"
 permalink: /project/project-ASME-Nuclear-Forensics/
 filelink: 'https://www.ksb.com/zh-cn/yingyong/nengyuan-jishu/hedianzhan'
