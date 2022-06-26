@@ -1,5 +1,5 @@
 ---
-title: "SQL-for-weather-data-analysis"
+title: "SQL-for-Weather-Data-Analysis"
 excerpt: "Using pandas and sqlalchemy to analyse the weather data from Finnish Meteorological Institute<br/><img src='/images/Finnish-Meteorological-Institute-open-data.png'>"
 permalink: /project/project-Weather-data-analysis/
 Finnish-Meteorological-Institute-link: 'https://en.ilmatieteenlaitos.fi/open-data'

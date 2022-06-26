@@ -1,5 +1,5 @@
 ---
-title: "Exops-m2-Smart-Robot"
+title: "Exops-M2-Smart-Robot"
 excerpt: "ArmMotus M2 upper extremity intelligent rehabilitation robot development<br/><img src='/images/Exops-m2-Smart-Robot.png'>"
 permalink: /project/project-Exops-m2-smart-robot/
 collection: project

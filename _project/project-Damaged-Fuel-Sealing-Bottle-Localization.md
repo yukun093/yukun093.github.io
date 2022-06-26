@@ -1,5 +1,5 @@
 ---
-title: "Tianwan Damaged Fuel Sealing Bottle Localization"
+title: "Damaged-Fuel-Sealing-Bottle-Localization"
 excerpt: "one mechanical design program<br/><img src='/images/damaged-fuel-sealing-bottle-localization.png'>"
 permalink: /project/Damaged-Fuel-Sealing-Bottle-Localization/
 imageaddress: 'https://www.cnnpn.cn/article/20860.html'

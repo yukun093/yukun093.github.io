@@ -1,5 +1,5 @@
 ---
-title: "Gene-expression-profile"
+title: "Gene-Expression-Profile"
 excerpt: "Tissue type classification based on microarray gene expression profiles<br/><img src='/images/DNA-Microarray.png'>"
 permalink: /project/project-Gene-expression-profile/
 dataset: https://drive.google.com/file/d/1hkkFh4T9PkP5L64gPTxjU6gg-TugRYcR/view?usp=sharing
