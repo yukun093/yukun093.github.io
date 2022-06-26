@@ -1,6 +1,6 @@
 ---
 title: "project-ASME-Nuclear-Forensics"
-excerpt: "Using pandas and sqlalchemy to analyse the weather data from Finnish Meteorological Institute<br/><img src='/images/Forensics-N-NPT-NS.png'>"
+excerpt: "one mechanical design and manufacturing program as one sample to participate in the ASME review<br/><img src='/images/Forensics-N-NPT-NS.png'>"
 permalink: /project/project-ASME-Nuclear-Forensics/
 filelink: 'https://www.ksb.com/zh-cn/yingyong/nengyuan-jishu/hedianzhan'
 collection: project
