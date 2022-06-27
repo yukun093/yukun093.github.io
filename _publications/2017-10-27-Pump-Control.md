@@ -3,8 +3,8 @@
 title: "Pump control type hydrodynamic retarding system and its control method"
 collection: publications
 permalink: /publication/2017-10-27-Pump-Control/
-excerpt: 'Patent Pump Control'
 date: 2017-10-27
+excerpt: 'Patent Pump Control'
 paperurl: 'http://yukun093.github.io/files/CN105508322B.pdf'
 ​---
 ---
