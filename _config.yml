@@ -179,7 +179,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   project: # it should be opened, then go to change its name. Otherwise, the name could not be changed.
     output: true
