@@ -17,7 +17,7 @@ redirect_from:
 
 2021.10-2022.03, Exchange Study, Technical University Munic, Munich
 
-2020.09-2022.06, Research Specialist, Isaware, Finland
+2020.09-2021.06, Research Specialist, Isaware, Finland
 
 2020.08-2020.10, Software Development intern, Fourier Intelligence, Shanghai
 
@@ -36,8 +36,6 @@ redirect_from:
 2016.09-2017.09, M.Sc in Shanghai, Shanghai University, Shanghai
 
 2012.09-2016.06, B.E., NingBo Tech University, NingBo
-
-
 
 The full CV.pdf could be found as follows:
 
