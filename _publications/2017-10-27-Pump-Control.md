@@ -2,9 +2,8 @@
 title: "Pump control type hydrodynamic retarding system and its control method"
 collection: publications
 permalink: /publication/2017-10-27-Pump-Control/
-excerpt: 'Patent Pump Control'
 date: 2017-10-27
-venue: 'Patent Pump Control'
+excerpt: 'Patent Pump Control'
 paperurl: 'http://yukun093.github.io/files/CN105508322B.pdf'
 ---
 
@@ -20,3 +19,6 @@ If you want to read in English, the google link is related to English version.
 
 [Read english version](https://patents.google.com/patent/CN105508322B/en)
 
+<!--comment code--> 
+
+<!--venue: 'Patent Pump Control'--> 
