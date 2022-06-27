@@ -2,8 +2,8 @@
 title: "Hydraulic vibration type high-power wave generation system and control method thereof"
 collection: publications
 permalink: /publication/2018-02-13-Hydraulic-Vibration/
-excerpt: 'Patent Hydraulic Vibration'
 date: 2018-02-13
+excerpt: 'Patent Hydraulic Vibration'
 paperurl: 'http://yukun093.github.io/files/CN105508324B.pdf'
 ---
 
@@ -19,6 +19,3 @@ If you want to read in English, the google link is related to English version.
 
 [Read english version](https://patents.google.com/patent/CN105508324B/en)
 
-<!--comment code-->
-
-<!--venue: 'Patent Hydraulic Vibration'-->
